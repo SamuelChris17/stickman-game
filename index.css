@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  font-family: Helvetica;
+}
+
+canvas {
+  border: 1px solid;
+}
+
+#score {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#restart {
+  position: absolute;
+  display: none;
+}
